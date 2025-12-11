@@ -1,1 +1,1 @@
-This repository contains front-end projects built following the roadmap.sh front-end developer section
+This repository includes front-end projects created from the roadmap.sh front-end developer path
