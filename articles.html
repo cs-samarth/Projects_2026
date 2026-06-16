@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+     <!-- SEO meta tags -->
+     <meta name="description" content="Informative Articles">
+     <meta name="keywords" content="my website, HTML, Articles">
+     <meta name="author" content="Samarth Garg">
+     <!-- Open Graph meta graph -->
+      <meta property="og:type" content="website">
+      <meta property="description" content="Developing scalable and well-structured web application.">
+      <link rel="icon" href="assests/icons8-article-50.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Articles</h1>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                    <br>
+                <div class="internal-links">
+                    <a href="#http">HTTP</a> &nbsp; &nbsp;
+                    <a href="#dns">DNS</a>
+                </div>
+            </nav>
+        </header>
+        <main class="articles">
+            <article class="http" id="http">
+                <h2>HTTP</h2>
+                <p>Http is an application layer protocol that defines how applications exchange information over a network, relying on
+                lower-layer protocols to transport the data.
+                A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.
+                </p>
+                <h3>What is an http request</h3>
+                <p>Http request is a way Internet communication platforms like web browsers ask for the information they need to
+                load a website.
+
+                Each HTTP request made across the Internet carries with it a series of encoded data that carries different types of
+                information. A typical HTTP request contains.
+                </p>
+                <ol>
+                    <li>HTTP version type</li>
+                    <li>a URL</li>
+                    <li>an HTTP method</li>
+                    <li>HTTP request header</li>
+                    <li>Optional HTTP body</li>
+                </ol>
+            </article>
+
+            <article class="dns" id="dns">
+                <h2>DNS</h2>
+                <p>Domain name system is hierarchical and decentralized naming system for internet connected resources.</p>
+                <p>The process of DNS resolution involves converting a hostname into a computer-friendly IP address.</p>
+                <h3>DNS Servers involved in loading a webpage</h3>
+                <ul>
+                    <li>DNS recursor</li>
+                    <li>Root nameserver</li>
+                    <li>TLD nameserver</li>
+                    <li>Authoritative nameserver</li>
+                </ul>
+            </article>
+        </main>
+        <footer>
+            &copy; 2025 Samarth Garg 
+        </footer>
+    </div>
+</body>
+</html>
